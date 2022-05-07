@@ -1,7 +1,7 @@
 .App {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.664);
     color: #212121;
     font-family: "Open Sans", sans-serif;
     display: grid;
@@ -27,7 +27,7 @@
     width: 210px;
     height: 40px;
     margin: 7px;
-    border: 2px solid #43a047;
+    border: 2px solid #60d4d8;
     border-radius: 5px;
     padding: 5px;
     font-size: 16px;
@@ -41,18 +41,18 @@
     border-radius: 5px;
     padding: 5px;
     font-size: 16px;
-    background: #43a047;
+    background: #e9803b;
     color: #fff;
     cursor: pointer;
   }
   
   .joinChatContainer button:hover {
-    background: #2e7d32;
+    background: #58caca;
   }
   
   .chat-window {
-    width: 300px;
-    height: 420px;
+    width: 500px;
+    height: 100vh ;
   }
   
   .chat-window p {
@@ -74,7 +74,7 @@
   }
   
   .chat-window .chat-body {
-    height: calc(450px - (45px + 70px));
+    height: 500px;
     border: 1px solid #263238;
     background: #fff;
   
