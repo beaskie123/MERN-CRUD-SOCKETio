@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main-container{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../public/main.jpg);
+  background-size: cover;
+}
+.small-container {
+  background: rgba(255, 255, 255, 0.37);
+  display: grid;
+  align-items: center;
+  padding: 10px;
+  z-index: 4;
+  margin-top: 50px;
+  color: rgb(0, 0, 0);
+  border-color: rgb(149, 151, 151);
+  border: solid 1px;
+  border-radius: 2% ;
+  box-shadow: 3px 3px rgb(128, 128, 128);
+  max-width: 450px !important;
+  height:500px ;
+
+}
+.small-container .p-edit {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 40px;
+}
+.small-container span {
+  color: rgba(187, 86, 86, 0.993)
+}
+.small-container button {
+  background-color: rgb(219, 107, 55);
+  color: rgb(0, 0, 0);
+  border:none;
+  width: 150px;
+  margin-left: 130px;
+  border-radius: 20px;
+}
+.small-container button:hover {
+  background-color: rgb(106, 187, 241);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 20px;
+
+}
+p{
+  color:rgb(76, 106, 206);
+  text-shadow: 2px 2px #7a6262
+}
+
+/* SIGNUP SCREEN */
+.signup-main {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../public/main.jpg);
+  background-size: cover;
+}
+
+.signup-screen{
+  background: rgba(255, 255, 255, 0.308);
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+  height: 500px;
+  background-size: cover;
+  padding: 10px;
+  border-color: rgb(149, 151, 151);
+  border: solid 1px;
+  border-radius: 2% ;
+  box-shadow: 3px 3px rgb(128, 128, 128);
+  max-width: 450px !important;
+}
+.signup-screen button {
+  background-color: rgb(219, 107, 55);
+  color: rgb(250, 250, 250);
+  border: none;
+  margin-left: 130px;
+  border-radius: 20px;
+}
+.signup-screen button:hover {
+  background-color: rgb(106, 187, 241);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 20px;
+}
+
+/* MAINPAGE */
+.main-container {
+  background-image: url(../public/main.jpg);
+  background-size: cover;
+}
+.container{
+  border: solid 1px black;
+}
